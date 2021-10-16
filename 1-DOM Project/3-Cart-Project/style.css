@@ -1,0 +1,193 @@
+@import url("https://db.onlinewebfonts.com/c/57d038810942f99c1d5f6aa97fb3c697?family=Booter+-+Zero+Zero");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {font-family: "Booter - Zero Zero"; 
+    src: url("https://db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.eot"); 
+    src: url("https://db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.eot?#iefix") format("embedded-opentype"), 
+    url("https://db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.woff2") format("woff2"), 
+    url("https://db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.woff") format("woff"), 
+    url("https://db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.ttf") format("truetype"), 
+    url("https://db.onlinewebfonts.com/t/57d038810942f99c1d5f6aa97fb3c697.svg#Booter - Zero Zero") format("svg"); 
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a:hover {
+    background-color: #a5c3ce;
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 8em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shop-item {
+    margin: 30px;
+}
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.shop-item-image {
+    height: 250px;
+}
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: rgb(8, 8, 8);
+}
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    box-shadow: 0 0 10px 4px #333;
+}
+.cart-row {
+    display: flex;
+}
+.cart-item {
+    width: 45%;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: rgb(10, 10, 10);
+}
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: rgb(10, 10, 10);
+}
+.cart-quantity {
+    width: 35%;
+}
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.band-name2 {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
